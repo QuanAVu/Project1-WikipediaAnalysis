@@ -29,7 +29,7 @@ FIELDS TERMINATED BY '\t';
 -- Load local data into table 
 LOAD DATA LOCAL INPATH '/home/quanvu/Project1-Data/clickstream-enwiki-2020-09.tsv' INTO TABLE clickstream;
 
--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------End Of Table Creation---------------------------------------------------------------
 
 -- Query 1
 /*	Get the top 10 highest viewed English wikipedia pages.
